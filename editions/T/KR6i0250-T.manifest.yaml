@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6i0250/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0250/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 禪祕要法經
+  identifiers:
+    krp: KR6i0250
+    cbeta: T15n0613
+    cbeta_old_id: T15n0613
+    authorityid: CA0000409
+    json_key: T0613
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0613.xml
+    old_id: T15n0613
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0250_000-T.yaml, hash: 'sha256:3c3343e4a5f10494d91c079103d1cae5a4ebd0bfef73e58e6488fc50522dddc4'}
+  - {seq: 1, filename: KR6i0250_001-T.yaml, hash: 'sha256:c6c1decb6350c5ca92d998aadb21c8358e969ea796cd93fc0a316ac7fd86157e'}
+  - {seq: 2, filename: KR6i0250_002-T.yaml, hash: 'sha256:209045e3561cf7486d3aaa3157f0936b429c99481670bad719ad42306d9d9581'}
+  - {seq: 3, filename: KR6i0250_003-T.yaml, hash: 'sha256:cbfa6516287776927108e6168be03beff7a1d64d77aa896f1e1764cf219fb100'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0250_000-T.markers.yaml, hash: 'sha256:842c669f7b7d1b86c30c8aa69624a4bfcab00fe075e92b3fc78293b4207563e9'}
+  - {seq: 1, role: markers, filename: assets/KR6i0250_001-T.markers.yaml, hash: 'sha256:fe85109614ddf92a28a901eb9757c6b1eac67770c9abf16a9f2ed50705c91ca6'}
+  - {seq: 2, role: markers, filename: assets/KR6i0250_002-T.markers.yaml, hash: 'sha256:1ae8685df0cf99993a5cec8be028a17a2ebfa7ff2128cc604adecb217ba95df5'}
+  - {seq: 3, role: markers, filename: assets/KR6i0250_003-T.markers.yaml, hash: 'sha256:cb85dd22e5936fbd61641bbe40527ecd56f2f0951ee464b60d8c133476450233'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0250_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 12398
+  label: 禪祕要法經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0250_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 13201
+  label: 禪祕要法經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0250_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 12645
+  label: 禪祕要法經卷下
+  type: juan
+  level: 1
+hash: sha256:f180603bf428419d9d6ec75ae1db053cd295f0a72803faca9f87ef37fe9fd67f
