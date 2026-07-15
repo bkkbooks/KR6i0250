@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0250/v1
 canonical_location: https://kanripo.org/bkk/KR6i0250/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 禪祕要法經
   identifiers:
@@ -40,14 +40,14 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0250_000.yaml, hash: 'sha256:3c3343e4a5f10494d91c079103d1cae5a4ebd0bfef73e58e6488fc50522dddc4'}
-  - {seq: 1, filename: KR6i0250_001.yaml, hash: 'sha256:c6c1decb6350c5ca92d998aadb21c8358e969ea796cd93fc0a316ac7fd86157e'}
-  - {seq: 2, filename: KR6i0250_002.yaml, hash: 'sha256:209045e3561cf7486d3aaa3157f0936b429c99481670bad719ad42306d9d9581'}
-  - {seq: 3, filename: KR6i0250_003.yaml, hash: 'sha256:cbfa6516287776927108e6168be03beff7a1d64d77aa896f1e1764cf219fb100'}
+  - {seq: 1, filename: KR6i0250_001.yaml, hash: 'sha256:65a58aca703515a500f6ce0f9a84128793db13ade67e478d7764ed4613473a70'}
+  - {seq: 2, filename: KR6i0250_002.yaml, hash: 'sha256:8f458d720c93f8620f00bac5cb63d26b409fcd0b5e3ee495d2736b3249377ef1'}
+  - {seq: 3, filename: KR6i0250_003.yaml, hash: 'sha256:1eee25ef22042638c8a0f1ef92164e8b3a57f12785dd88d55fb397256898bc83'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0250_000.markers.yaml, hash: 'sha256:8ca11005c69cc279ac76fc0f3981dc593a883b85e7bbf8e367e49d222ac426ff'}
-  - {seq: 1, role: markers, filename: assets/KR6i0250_001.markers.yaml, hash: 'sha256:08fab11142a5af642d101db97fca2f02ad29b01f8f9ae31ce4db9733a04d08af'}
-  - {seq: 2, role: markers, filename: assets/KR6i0250_002.markers.yaml, hash: 'sha256:4e4b7b753e60d9d4a677c183490c965523347027a0d61273d59b4401d827a9d8'}
-  - {seq: 3, role: markers, filename: assets/KR6i0250_003.markers.yaml, hash: 'sha256:e7141a9504256f07b973736517928590a5239c0b4ed04077076aa9ec320192a7'}
+  - {seq: 1, role: markers, filename: assets/KR6i0250_001.markers.yaml, hash: 'sha256:bf3b0ee7856be41784d67a0279220e68ccd37a7e526909b59519ae6c66762ec8'}
+  - {seq: 2, role: markers, filename: assets/KR6i0250_002.markers.yaml, hash: 'sha256:94ae2f4c6b44bd66a8d00e1f9ea7c2ed3ee51a5f7f4baa8424cea08378a017c4'}
+  - {seq: 3, role: markers, filename: assets/KR6i0250_003.markers.yaml, hash: 'sha256:ebf8649c5388615a05b3a9aaad8c3dc4efd868528658a07d3ab71d3d10a46423'}
 table_of_contents:
 - ref:
     seq: 1
@@ -79,4 +79,7 @@ table_of_contents:
   label: 禪祕要法經卷下
   type: juan
   level: 1
-hash: sha256:2da1b616f83b7156685debc80cb52679f3bf0c5168ece4cf252537f10e4861f3
+hash: sha256:f0166ce0e19afb9933afe0fd7ad57a93e7b7db013679cb87dfd9bc299f50c829
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
